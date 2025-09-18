@@ -92,29 +92,20 @@ Sample output:
 ```
 🧩 Architecture
 
-Server
+[+] Server
 
 Handles multiple clients using threading
 
 Keeps track of each client’s current_dir in a sessions dictionary
 
-Client
+[+] Client
 
 Reads user input, sends it to the server, displays server output
 
-Tests
+[+] Tests
 
 Use tempfile for isolated test directories
 
-⚠️ Security Notes
+⚠️ Notes
 
 This project is for educational purposes only.
-Running arbitrary remote commands is a serious security risk.
-Do not use in production without:
-
-Authentication
-
-Encryption (TLS)
-
-Proper access control & logging
-
