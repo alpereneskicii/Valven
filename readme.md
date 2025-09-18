@@ -5,17 +5,18 @@
 This project demonstrates a simple **client–server architecture** built with **Python sockets** that allows **remote command execution**.  
 The server receives commands from connected clients, executes them, and returns the output.  
 Each client runs in its own **session** with an isolated working directory.
-```bash
 
 ---
 
 ## 📂 Project Structure
+```bash
 
 .
 ├── socket_client.py # Client code
 ├── socket_server.py # Server code
 ├── test_server.py # Unit tests for server commands
 └── README.md # Project documentation
+```
 
 ## 🚀 Setup & Run
 
@@ -29,15 +30,17 @@ Each client runs in its own **session** with an isolated working directory.
 python socket_server.py
 
 If successful, you will see:
-
+```bash
 [*] Server listening on <hostname>:5000
+```
+
 
 3. Start the Client
 
 Open another terminal and run:
-
+```bash
 python socket_client.py
-
+```
 4. Usage
 
 Enter a command in the client terminal → the server executes it and returns the output.
@@ -59,9 +62,9 @@ Other commands (ls, dir, echo, mkdir, etc.) are executed via subprocess.run
 
 Tests are included in test_server.py.
 Run them with:
-
+```bash
 python test_server.py
-
+```
 
 Tests cover:
 
@@ -76,7 +79,7 @@ Common commands like echo and dir
 Session management
 
 Sample output:
-
+```bash
 🔧 Starting Server Tests...
 ========================================
 ✅ PASS: pwd command works correctly
@@ -86,7 +89,7 @@ Sample output:
 ✅ PASS: Session created successfully
 ...
 🏁 All tests completed!
-
+```
 🧩 Architecture
 
 Server
@@ -114,4 +117,4 @@ Authentication
 Encryption (TLS)
 
 Proper access control & logging
-```
+
