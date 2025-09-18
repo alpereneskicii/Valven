@@ -5,6 +5,7 @@
 This project demonstrates a simple **client–server architecture** built with **Python sockets** that allows **remote command execution**.  
 The server receives commands from connected clients, executes them, and returns the output.  
 Each client runs in its own **session** with an isolated working directory.
+```bash
 
 ---
 
@@ -25,7 +26,6 @@ Each client runs in its own **session** with an isolated working directory.
 
 ### 2. Start the Server
 
-```bash
 python socket_server.py
 
 If successful, you will see:
