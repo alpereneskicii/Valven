@@ -54,11 +54,6 @@ pwd → Show current directory
 
 Other commands (ls, dir, echo, mkdir, etc.) are executed via subprocess.run
 
-⚠️ Security note:
-
-mkdir runs with shell=False for safety
-
-Other commands use shell=True
 
 🧪 Testing
 
