@@ -26,9 +26,9 @@ Each client runs in its own **session** with an isolated working directory.
 - Works on Windows, Linux, and macOS
 
 ### 2. Start the Server
-
+```bash
 python socket_server.py
-
+```
 If successful, you will see:
 ```bash
 [*] Server listening on <hostname>:5000
@@ -42,9 +42,9 @@ Open another terminal and run:
 python socket_client.py
 ```
 4. Usage
-
+```bash
 Enter a command in the client terminal → the server executes it and returns the output.
-
+```
 Quit with: q
 
 🔑 Supported Commands
